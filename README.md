@@ -4,6 +4,14 @@
   ## Description
   It is the generator for professional readme document and this is first commit to see result
 
+  To Do List and Problems:
+  1. write final descriptions
+  2. fix contact info
+  3. add Screenshoot title
+  4. deployed link should go to up inside the description
+  5. licance badget should be added
+  6.
+
   ## Table of Contents
   * [Installation](#Installation)
   * [Usage](#Usage)
