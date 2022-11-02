@@ -1,54 +1,25 @@
 
-  # README GENERATOR
+  # README-Generator-Project
 
   ## Description
-  It is the generator for professional readme document and this is first commit to see result
+  It is generated a README file by using a command-line application to develop one. This allows the project creator to devote more time to the project.
 
-  To Do List and Problems:
-  1. write final descriptions
-  2. fix contact info
-  3. add Screenshoot title
-  4. deployed link should go to up inside the description
-  5. licance badget should be added
-  6.
+  ## Deployed
+  https://burakcersit.github.io/README-Generator-Project/
+
+  ## Screenshot
+![alt text](./img/Screenshot%202022-11-02%20175709.png)
 
   ## Table of Contents
   * [Installation](#Installation)
-  * [Usage](#Usage)
-  * [Credits](#Credits)
   * [License](#license)
-  * [Contributing](#Contributing)
-  * [Tests](#Tests)
   * [Deployed](#Deployed)
-  * [Contact](#Contact)
-
-
-      
-  ## Installation
-   N/A
-
-  ## Usage
-  you can create professional readme document using terminal and node.js
-
-  ## Credits
-  N/A
+  * [Contact](#Contact)     
 
   ## license
   MIT
 
-  ## Contributing
-  N/A
-
-  ## Tests
-  N/A
-
-
-  ## Deployed
-  burakcersit@first.try
-
-  ## Contact
-  burak.cersit@hotmail.com
-  burakcersit
-
- 
-
+  ## Contact  
+  burakcersit1@gmail.com  
+  <br /> 
+  https://github.com/burakcersit

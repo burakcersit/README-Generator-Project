@@ -11,15 +11,13 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the title of your project?",
-        //validate: validateInput,
+        message: "What is the title of your project?",        
     },
     // Question for the project Description
     {
         type: "input",
         name: "description",
-        message: "Please enter a description of your project.",
-        //validate: validateInput,
+        message: "Description of your project.",
     },
 
     // Table of Contents, andling this in the markdown.js
@@ -28,23 +26,23 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "Please enter an explanation how to install the software, or commands for the program.",
-        //validate: validateInput,
+        message: "What are the steps required to install your project?",
+       
     },
 
     // Question for Usage
     {
         type: "input",
         name: "usage",
-        message: "Please describe how we can use this program/project.",
-        //validate: validateInput,
+        message: "Provide instructions and examples for use",
+        
     },
     // Question for Credits
     {
         type: "input",
         name: "Credits",
         message: "Please list your collaborators ",
-        //validate: validateInput,
+        
     },
 
     // Question for License 
@@ -53,9 +51,8 @@ const questions = [
         name: "license",
         message: "Please select a license for this project.",
         choices: [
-            "MIT", "ISC", "GNU AGPLv3", "GNU GPLv3", "GNU LGPLv3", "Apache 2.0", "Boost Software 1.0", "Mozilla",
-         ],
-        //validate: validateInput,
+            "MIT", "ISC", "GNUAGPLv3", "GNUGPLv3", "GNULGPLv3", "Apache2",],
+        
     },
 
     // Question for Contributing 
@@ -63,7 +60,7 @@ const questions = [
         type: "input",
         name: "contributing",
         message: "How can users contribute to your project.",
-        //validate: validateInput,
+        
     },
 
     // Question for Tests
@@ -71,7 +68,7 @@ const questions = [
         type: "input",
         name: "tests",
         message: "Please enter any testing instructions you would like to provide for this project.",
-        //validate: validateInput,
+        
     },
 
     // QUESTIONS section -- github 
@@ -79,14 +76,14 @@ const questions = [
         type: "input",
         name: "userName",
         message: "What is your GitHub username?",
-        //validate: validateInput,
+        
     },
       // QUESTIONS section -- deployed link 
       {
         type: "input",
         name: "DeployedLink",
         message: "What is your Deployed Link?",
-        //validate: validateInput,
+        
     },
 
     // QUESTIONS section -- email address
@@ -109,7 +106,7 @@ function writeToFile(fileName, data) { fs.writeFile(fileName, generateMarkdown(d
 // TODO: Create a function to initialize app
 function init() {
      inquirer.prompt(questions).then((data) => {
-        console.log(JSON.stringify(data, null, ""));
+        console.log(JSON.stringify(data, null, ""));        
         writeToFile("./README.md", data);
       
 })
