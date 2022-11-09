@@ -13,8 +13,7 @@
   * [License](#license)
   * [Contact](#Contact)  
 
-  ## Deployed
-  https://burakcersit.github.io/README-Generator-Project/
+
 
   ## Screenshot
 ![alt text](./img/Screenshot%202022-11-02%20175709.png)
